@@ -19,7 +19,7 @@ const App = () => {
     e.preventDefault(); 
 
     try {
-      const response = await fetch('http://localhost:2001/api/feedback/submit', {
+      const response = await fetch('https://feedback-collector-feedbak-sever.onrender.com/api/feedback/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -49,7 +49,7 @@ const App = () => {
   };
   const fetchFeedbacks = async () => {
     try {
-      const response = await fetch('http://localhost:2001/api/feedback/all');
+      const response = await fetch('https://feedback-collector-feedbak-sever.onrender.com/api/feedback/all');
       const data = await response.json();
       if (response.ok) {
         setFeedbacks(data);
