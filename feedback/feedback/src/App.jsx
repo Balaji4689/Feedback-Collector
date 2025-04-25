@@ -95,7 +95,7 @@ const App = () => {
       )}
       <footer className="footer">
         <p className="footer-text">
-          Feedback Collector App | Created by <span className="name">Maddula Reddy</span> - Submission Info
+          Feedback Collector App | Created by <span className="name">Maddula Balaji Reddy</span> - Submission Info
         </p>
       </footer>
     </div>
